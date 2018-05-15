@@ -1,0 +1,67 @@
+
+ @media only screen and (max-width: 750px){
+ div {
+    box-sizing: border-box;
+  }
+  
+  .container-a {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    perspective: 1px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+  
+.group-1 {
+    height:800px;
+    position: relative;
+    transform-style: preserve-3d;
+   
+  }
+  
+  .background {
+    transform: translateZ(-1px) scale(2);
+    height: -44%; 
+  
+    width: 100%;
+    position: absolute;
+
+    top: calc(0px - 48vh); 
+    
+
+    background: #e8e8e900;
+    padding-top: 105px;
+    
+  }
+  
+  .foreground {
+    position: absolute;
+    top: 271px;
+    height: 300px;
+    width: 100%; 
+    background: #ffffff;
+    opacity: 0.95;
+    padding-top: 0px;
+   
+  }
+ 
+ }
+
+ @media only screen and (max-width: 320px){
+
+ .background {
+    transform: translateZ(-1px) scale(2);
+    height: -44%;
+    width: 100%;
+    position: absolute;
+
+    top: calc(0px - 55vh);
+    
+    background: #1d232f;
+    padding-top: 105px;
+    
+  }
+}

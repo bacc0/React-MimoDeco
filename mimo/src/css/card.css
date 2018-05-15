@@ -1,0 +1,119 @@
+.discover-page-body {
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.body-card {
+    width: 29%;
+    margin: 3rem auto 0;
+}
+
+.body-card-up {
+    border-radius: 3px;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.34);
+}
+
+.body-card-up:hover {
+    transform: translateY(-2px);
+    filter: contrast(102%);
+    filter: brightness(102%);
+    box-shadow: 0px 5px 24px rgba(0, 0, 0, 0.34);
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+}
+
+.body-card-up:active {
+    transform: translateY(0px);
+    filter: contrast(102%);
+    filter: brightness(102%);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.34);
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+}
+
+.icons-unit-card-holder {
+    text-align: right;
+    height: 1px;
+}
+
+.icons-unit-card {
+    color: #d0d0d0;
+    font-size: 2.1rem;
+    position: relative;
+}
+
+.icons-unit-card:hover {
+    color: #f87350;
+    font-size: 2.1rem;
+}
+
+.icons-unit-card:active {
+    color: #bc5a41;
+    font-size: 2.1rem;
+}
+
+.footer-separator-discover {
+    height: 8rem
+}
+
+#link-pic {
+    text-align: right;
+    font-size: 1rem;
+}
+
+.img-card-holder {
+    border-radius: 3px;
+}
+
+.img-card {
+    border-radius: 3px;
+    width: 100%;
+}
+
+.footer-card {
+    padding: 4% 0 1%;
+}
+
+.footer-card>p {}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0%
+}
+
+.header-discover {
+    height: 21vh;
+    background-color: #fcbe08;
+    background-image: linear-gradient(to bottom right, #01aaa200, #ff600404), url(../img/brushes.png);
+    background-size: cover;
+    background-position: left bottom;
+    position: relative;
+    clip-path: polygon(0 0, 100% 0, 100% 4vh, 0 100%);
+    filter: contrast(115%);
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+@media only screen and (max-width: 834px) {
+    .body-card {
+        width: 45%;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .body-card {
+        width: 94%;
+    }
+    .icons-unit-card {
+        font-size: 3.5rem;
+    }
+    .icons-unit-card:hover {
+        color: #f87350;
+        font-size: 3.5rem;
+    }
+    .icons-unit-card:active {
+        color: #bc5a41;
+        font-size: 3.5rem;
+    }
+}

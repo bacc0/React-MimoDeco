@@ -1,0 +1,85 @@
+
+.header-quote{
+    height: 45vh;
+    background-image: 
+    linear-gradient(to left top, #00fff716, hsla(0, 0%, 0%, 0), hsla(0, 0%, 0%, 0), hsla(0, 0%, 0%, 0)), 
+    linear-gradient(to bottom right, #003cf128, #ff600404), 
+    url(../img/map-office.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    
+    filter: contrast(115%);
+}
+
+.header-map{
+    height: 45vh;
+    background-image: 
+    linear-gradient(to left top, #1b88e11a, #ffc10800, hsla(0, 0%, 0%, 0), hsla(0, 0%, 0%, 0)), 
+    linear-gradient(to top , #3b4d6f34, #1b88e118), 
+    url(../img/map-post.png);
+    background-color: #ffc108;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    filter: contrast(115%);
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+.map-text{
+    position: relative;
+    top:2rem;
+    padding:  auto;
+    margin: 0 3%;
+    border-radius: 0.3rem;
+    background-color: #1d232fcb;
+    color:#ffc108;
+    font-size: 2rem;
+    text-shadow: 0 0 2rem rgba(0, 0, 0, 0.467);
+    box-shadow: 0 2px 9px rgba(0, 0, 0, 0.65);
+}
+
+.main-quote h2{
+    color: #141920;
+    text-align: center;
+    font-size: 2.7rem;
+}
+.btn-quote{
+    text-align: center;
+   rileftght: 5px;
+   display: flex;   
+   float:right;
+}
+.main-quote{
+   
+    background-color:#f87350;
+    height: 29.5rem;
+    font-size: 1.7rem;
+    color: #ffffff;
+    padding: 4rem 6rem;
+    
+}
+
+.footer-separator-quote-map{
+    height: 9rem;
+    background-color:rgb(237, 237, 237);
+}
+
+@media only screen and (max-width: 750px){
+	.map-text{
+        top:0rem;
+        border-radius:2px;
+        margin: 0 auto;
+  
+    }
+    .main-quote{
+        height: 36.1rem;
+        color: #ffffff;
+        padding: 4rem 2rem 28rem 2.3rem;
+        font-size: 1.7rem;
+        box-shadow: 0 0 9px rgba(0, 0, 0, 0.6);
+    }
+    
+   
+}
+

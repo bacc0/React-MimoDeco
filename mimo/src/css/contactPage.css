@@ -1,0 +1,212 @@
+.map-pix {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 25vh;
+    margin: 4rem 0;
+    padding: 4rem;
+    filter: drop-shadow(-3px 16px 3px#082b4879) invert(1%);
+}
+
+.map-pix:hover {
+    filter: drop-shadow(-3px 17px 4px#082b4879) invert(1%);
+}
+
+.header-contact {
+    height: 21vh;
+    background-image: linear-gradient(to bottom right, #01aaa242, #ff600404), url(../img/art.jpg);
+    background-size: cover;
+    background-position: left bottom;
+    position: relative;
+    clip-path: polygon(0 0, 100% 0, 100% 4vh, 0 100%);
+    filter: contrast(115%);
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+#contact-page-title {
+    text-align: center;
+    color: #1d232f;
+    padding: 0rem 0rem 6rem;
+}
+
+.backre {
+    background-color: #ededed;
+}
+
+.section-form {
+    padding: 1rem;
+    margin: 0 auto;
+}
+
+.form-messages {
+    border-radius: 0.3rem;
+    margin: 0 auto;
+    padding: 11rem;
+    padding: 3rem;
+    margin-bottom: 2rem;
+}
+
+form-messages {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.contact-form {
+    padding: 0rem;
+}
+
+input[type=text],
+input[type=email],
+textarea,
+select {
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 2px;
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 0 2px 9px rgba(0, 0, 0, 0.25);
+    margin: 0 0 40px;
+}
+
+input:hover,
+textarea:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+input:focus,
+textarea:focus {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.submit-button-holder {
+    padding: 0.8rem 0 1px 66%;
+}
+
+#submit-button-form {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 400;
+    padding: 0.8rem 2.7rem;
+    font-size: 2.1rem;
+    display: inline-block;
+    transform: all .2s;
+    box-shadow: 0 2px 9px rgba(0, 0, 0, 0.25);
+    width: 16rem;
+    height: 5rem;
+    border: 1px solid #1b89e1;
+    background-color: #1b89e1;
+    border-radius: 2px;
+}
+
+#submit-button-form:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    background-color: #209bff;
+    border: 1px solid #209bff;
+    width: 16rem;
+    height: 5rem;
+    color: #ffffff;
+    border-radius: 2px;
+}
+
+.contact-form {
+    width: 45%;
+    margin: 1rem auto;
+}
+
+.input:focus {
+    height: 1300px;
+}
+
+textarea {
+    height: 15rem;
+}
+
+@media only screen and (max-width: 750px) {
+    .map-pix {
+        margin: 3rem 0
+    }
+    .contact-form {
+        width: 100%;
+        margin: 1rem auto;
+    }
+    .submit-button-holder {
+        padding: 0.8rem 0 1px 55%;
+        background-color: rgb(255, 255, 255);
+        background-color: rgb(237, 237, 237);
+    }
+    input[type=text],
+    input[type=email],
+    textarea,
+    select {
+        padding: 2rem 4rem;
+        ;
+        border-radius: 0px;
+        border: 1px solid rgba(255, 255, 255, 0);
+        box-shadow: 0 0px 0px rgba(0, 0, 0, 0);
+        margin: 0 0 0px;
+        border-bottom: 1px solid rgb(223, 223, 223);
+    }
+    input[type=text] {
+        border-top: 0.1px solid rgb(223, 223, 223);
+    }
+    input:hover,
+    textarea:hover {
+        transform: translateY(0px);
+        box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+        border-top: 0.1px solid rgb(223, 223, 223);
+    }
+    input:focus,
+    textarea:focus {
+        transform: translateY(0px);
+        box-shadow: 0 0px 0px rgba(0, 0, 0, 0.0);
+        border-bottom: 1px solid #1b89e1;
+    }
+    textarea {
+        height: 14rem;
+    }
+    #submit-button-form {
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.22);
+        background-color: rgb(255, 255, 255);
+        color: #555;
+        background-color: #1b89e1;
+        color: #ffffff;
+    }
+    #contact-page-title {
+        text-align: center;
+        color: #1d232f;
+        padding: 0rem 0rem 1.3rem;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .submit-button-holder {
+        padding: 0.8rem 0 1px 45%;
+    }
+}
+
+.success-message {
+    height: 500vh;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.6);
+    margin: 0 auto;
+    padding: 10% 40%;
+    position: relative;
+    top: -1100px
+}
+
+.success-message-text {
+    position: fixed;
+    top: 17rem;
+    left: 20%;
+    right: 20%;
+    text-align: center;
+    ;
+}
+
+.blur-4 {
+    filter: blur(5px);
+}
