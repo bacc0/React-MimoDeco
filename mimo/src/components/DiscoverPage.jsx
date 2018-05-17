@@ -16,7 +16,6 @@ export class DiscoverPage extends React.Component{
                    <div className="footer-separator-discover" ></div>
                 <Footer />
             </div>
-            
         );
     }
 }
