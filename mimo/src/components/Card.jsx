@@ -9,7 +9,6 @@ export class Card extends React.Component {
                     <img className="img-card" src={ image} />
                 </div>
                 <footer className="footer-card" >
-              
                      <div className="icons-unit-card-holder">
                          <a  href={extraInfo} > <i className="material-icons icons-unit-card" >info</i></a>
                      </div>
