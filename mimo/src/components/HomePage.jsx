@@ -77,7 +77,6 @@ class HomePage extends React.Component {
                                 <p className="grey-text">
                                     The Invisible Painter approach is simple – work diligently and honestly, creating as little hassle as possible for our customers. You’ll be pleasantly surprised by the speed of our workers. We are called the Invisible Painters because you’ll barely notice us since we take extra precautions to not disturb any activity you may have at your premises.
                                 </p>
-                               
                             </div>
                         </div>
                     </div>
@@ -116,7 +115,6 @@ class HomePage extends React.Component {
                                 <p className="grey-text">
                                     We know that undertaking a retail painting and decorating project is a huge decision, especially for a busy shop in London. A bad decision impacts your reputation and credibility, it can upset employees and turn away customers. That’s why we introduced our “no hassle” guarantee for new clients.
                                 </p>
-                             
                             </div>
                         </div>
                     </div>
