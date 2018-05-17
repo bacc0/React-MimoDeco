@@ -1,8 +1,5 @@
 import React from 'react';
-
 import Card from '../components/Card';
-
-
 
 export class DiscoveList extends React.Component{
     render() {
@@ -23,8 +20,6 @@ export class DiscoveList extends React.Component{
                        />
                     );
                 })};
-   
-                
             </div>
         );
     }
