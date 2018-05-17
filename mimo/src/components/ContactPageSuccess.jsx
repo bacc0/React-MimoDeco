@@ -10,7 +10,6 @@ export class ContactPageSuccess extends React.Component {
             phoneNumber: '',
             text: ''
         }
-        
         this.onChange = this.onChange.bind(this);
         this.onSubmit = this.onSubmit.bind(this);
     }
@@ -30,10 +29,7 @@ export class ContactPageSuccess extends React.Component {
  
         .then(response => console.log(response))
         .catch(error => console.log(error));
-   
-
 }
-
     render() {
         return (
             <div>
