@@ -37,7 +37,6 @@ export class GetQuotePage extends React.Component{
                                      <div><strong>
                                         <a className="phone-link-l-blue" href="tel:07428-390052">07428 390052</a>
                                     </strong></div>
-
                                     <br />
                                     <div className="">
                                         <a href="/contact" className="btno btn-quote">MAIL US</a>
