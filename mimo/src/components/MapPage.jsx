@@ -2,9 +2,6 @@ import React from 'react';
 import Footer from '../components/common/Footer';
 import LogoBrush from '../img/brush-logo.png';
 
-
-
-
 export class MapPage extends React.Component{
     render() {
         return (
