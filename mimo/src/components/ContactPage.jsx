@@ -14,8 +14,6 @@ export class ContactPage extends React.Component {
             text: ''
            
         }
-        
-
         this.onChange = this.onChange.bind(this);
         this.onSubmit = this.onSubmit.bind(this);
     }
@@ -23,7 +21,6 @@ export class ContactPage extends React.Component {
 
         this.setState({ [e.target.name]: e.target.value });
     }
-
     onSubmit(e) {
         e.preventDefault();
         // axios.post('api/users', {user: this.state});
@@ -31,19 +28,10 @@ export class ContactPage extends React.Component {
         this.props.history.push('/success');
 
         axios.post('/CONTACT INFO.json', { user: this.state })
-
-
-        
+     
         .then(response => console.log(response))
         .catch(error => console.log(error));
-      
-
-     
-
-}
-
-
-
+     }
     render() {
         return (
             <div className="backre">
