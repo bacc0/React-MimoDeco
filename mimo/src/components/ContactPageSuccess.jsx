@@ -13,12 +13,11 @@ export class ContactPageSuccess extends React.Component {
         this.onChange = this.onChange.bind(this);
         this.onSubmit = this.onSubmit.bind(this);
     }
-    onChange(e) {
+     onChange(e) {
 
         this.setState({ [e.target.name]: e.target.value });
     }
-
-    onSubmit(e) {
+     onSubmit(e) {
         e.preventDefault();
         // axios.post('api/users', {user: this.state});
        
@@ -29,7 +28,7 @@ export class ContactPageSuccess extends React.Component {
  
         .then(response => console.log(response))
         .catch(error => console.log(error));
-}
+     }
     render() {
         return (
             <div>
@@ -93,9 +92,9 @@ export class ContactPageSuccess extends React.Component {
 
                     <div class="blur-4">
                 <Footer/>
-           </div>
-           </div>
-        );
+            </div>
+         </div>
+       );
     }
 }
 
