@@ -89,8 +89,7 @@ export class ContactPageSuccess extends React.Component {
                          <a href="/" className="btnb"> Home </a>
                          </div>
                     </div>
-
-                    <div class="blur-4">
+                  <div class="blur-4">
                 <Footer/>
             </div>
          </div>
